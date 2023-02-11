@@ -23,8 +23,8 @@ Ferramentas e libs:
  
 <h2>Links</h2>
 
-* <a href="https://nubank.com.br/ ">Página de referência</a>
-* <a href="">Visualizar o projeto</a>
+* <a href="https://nubank.com.br/" target="_blank">Página de referência</a>
+* <a href="https://vast-reason.surge.sh/" target="_blank">Visualizar o projeto</a>
 
 <h2>Versão para Desktop</h2>
  
