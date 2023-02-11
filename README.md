@@ -1,9 +1,35 @@
-Trabalho da semana: Criar página igual a do Nubank, não é a página toda apenas essa primeira section que tem o texto, o form e a imagem de fundo.
+<h1 align="center" id="top">R8 Bank</h1>
 
-Dica: utilizem flexbox e o trabalho será moleza 😉
+<h2>Sobre o desafio</h2>
 
-Data da entrega e apresentação: 10/02 (sexta feira) as 19h
+  O desafio era usar de referência o layout LP do Nubank e fazer um clone mudando a identidade visual.
 
-Desafio extra: Fazer a página responsiva (se adaptar para a tela de celular)
+<h2>Tecnologias e ferramentas</h2>
 
-Link da pagina: https://nubank.com.br/ 
+Tecnologias:
+* HTML
+* CSS
+
+Ferramentas e libs:
+* Figma
+* Bootstrap icons
+
+<h2>Novas técnicas aplicadas no projeto</h2>
+
+* Mobile First
+* Estilização de scroll lateral no Desktop e velocidade de scroll nos links âncora dentro da página
+* Inserção de svg através de Bootstrap Icons
+
+ 
+<h2>Links</h2>
+
+* <a href="https://nubank.com.br/ ">Página de referência</a>
+* <a href="">Visualizar o projeto</a>
+
+<h2>Versão para Desktop</h2>
+ 
+<img src="./src/img/tela-desktop.png">
+
+<h2>Versão Mobile</h2>
+
+<img src="./src/img/tela-celular.png">

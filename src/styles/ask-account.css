@@ -1,0 +1,128 @@
+.ask-account {
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 700px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 530px;
+
+    gap: 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 600;    
+}
+
+.hero-text p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.form fieldset {
+    background-color: #00000090;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-height: 330px;
+    max-width: 330px;
+    padding: 40px 25px;
+
+    border-radius: 20px;
+    
+    box-sizing: border-box;
+}
+
+.form fieldset h1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.form fieldset label input {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+
+    width: 100%;
+
+    margin-bottom: 35px;
+    padding: 10px 0;
+
+    background-color: transparent;
+    color: var(--default-color);
+
+    font-size: 16px;
+}
+
+.form fieldset label input::placeholder{
+    color: var(--primary-color-light);
+}   
+
+.form fieldset .btn-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 50px;
+    border: none;
+
+    padding: 15px 20px;
+
+    background-color: var(--primary-color);
+
+    cursor: pointer;
+}
+
+.form fieldset .btn-form:hover {
+    background-color: var(--primary-color-light);
+}
+
+.form fieldset .btn-form p, svg {
+    color: var(--second-color-light);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: initial;
+    }
+
+    .ask-account {
+        background: none;
+        background-color: var(--primary-color);
+        background-attachment: scroll;
+
+        height: auto;
+
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero-text {
+        max-width: 330px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+    }
+}

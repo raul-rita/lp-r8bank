@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #f2c029;
+    --primary-color-light: #fae198;
+    --second-color: #000000;
+    --second-color-light: #333333;
+    --default-color: #ffffff;
+
+    --text-font: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--text-font);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 40px 5%;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--second-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color-light);
+  }
