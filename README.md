@@ -16,7 +16,6 @@ Ferramentas e libs:
 
 <h2>Novas técnicas aplicadas no projeto</h2>
 
-* Mobile First
 * Estilização de scroll lateral no Desktop e velocidade de scroll nos links âncora dentro da página
 * Inserção de svg através de Bootstrap Icons
 
